@@ -80,6 +80,7 @@ public class RecipeManagerGC {
         for (String fluidName : t2Fuels) {
             RocketFuels.addFuel(EntityTier1Rocket.class, fluidName);
             RocketFuels.addFuel(EntityTier2Rocket.class, fluidName);
+            RocketFuels.addFuel(EntityCargoRocket.class, fluidName);
         }
         for (String fluidName : t4Fuels) {
             RocketFuels.addFuel(EntityTier3Rocket.class, fluidName);
