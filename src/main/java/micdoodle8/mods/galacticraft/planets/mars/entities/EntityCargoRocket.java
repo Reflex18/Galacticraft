@@ -347,7 +347,7 @@ public class EntityCargoRocket extends EntityAutoRocket implements IRocketType, 
 
     @Override
     public int getRocketTier() {
-        return Integer.MAX_VALUE;
+        return 2;
     }
 
     @Override

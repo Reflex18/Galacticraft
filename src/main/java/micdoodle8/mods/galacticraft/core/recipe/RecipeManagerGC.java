@@ -30,6 +30,7 @@ import micdoodle8.mods.galacticraft.core.util.ConfigManagerCore;
 import micdoodle8.mods.galacticraft.core.util.GCLog;
 import micdoodle8.mods.galacticraft.core.util.RecipeUtil;
 import micdoodle8.mods.galacticraft.planets.asteroids.entities.EntityTier3Rocket;
+import micdoodle8.mods.galacticraft.planets.mars.entities.EntityCargoRocket;
 import micdoodle8.mods.galacticraft.planets.mars.entities.EntityTier2Rocket;
 import micdoodle8.mods.galacticraft.planets.mars.items.MarsItems;
 
@@ -69,6 +70,7 @@ public class RecipeManagerGC {
         for (String fluidName : t2Fuels) {
             RocketFuels.addFuel(EntityTier1Rocket.class, fluidName);
             RocketFuels.addFuel(EntityTier2Rocket.class, fluidName);
+            RocketFuels.addFuel(EntityCargoRocket.class, fluidName);
         }
         for (String fluidName : t4Fuels) {
             RocketFuels.addFuel(EntityTier3Rocket.class, fluidName);
